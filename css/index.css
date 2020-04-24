@@ -1,0 +1,265 @@
+.banner {
+    width: 100%;
+    height: 660px;
+    background: url("../images/bgimg.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner div {
+    width: 800px;
+    padding: 130px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    display: none;
+}
+
+.banner div h2 {
+    height: 100px;
+    line-height: 100px;
+    font-size: 42px;
+}
+
+.banner div h3 {
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.banner div h5 {
+    font-size: 18px;
+    height: 200px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-top: 20px;
+    color: #a77746;
+}
+
+.banner div h5 strong {
+    color: #A9A9A9;
+    font-weight: 600;
+}
+
+.about {
+    width: 100%;
+    height: 260px;
+    padding-top: 50px;
+}
+
+.about h3,
+.about h5,
+.about p,
+.fw h3,
+.fw h5,
+.process h2,
+.con h3,
+.con h5 {
+    text-align: center;
+}
+
+.about h3,
+.fw h3,
+.process h2,
+.con h3 {
+    height: 46px;
+    line-height: 46px;
+    font-size: 26px;
+}
+
+.about h5,
+.fw h5,
+.process span,
+.con h5 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #a77746;
+}
+
+.about p {
+    height: 144px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    margin-top: 36px;
+}
+
+.fw {
+    padding-top: 50px;
+    background: #f2f1ef;
+    height: 748px;
+    overflow: hidden;
+}
+
+.fw ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.fw ul li {
+    width: 260px;
+    height: 255px;
+    padding-top: 40px;
+}
+
+.fw ul li img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.fw ul li h2 {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    color: #a77746;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fw ul li p {
+    height: 88px;
+    line-height: 22px;
+    font-size: 14px;
+    width: 240px;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 20px;
+    color: #666;
+}
+
+.fw ul li p a {
+    color: #666;
+}
+
+.list {
+    height: 550px;
+    padding-top: 50px;
+    background: #333;
+}
+
+.list h3 {
+    color: #fff;
+}
+
+.list h5 {
+    color: #A9A9A9;
+}
+
+.list div ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1200px;
+    height: 340px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.list div ul li {
+    width: 166px;
+    height: 166px;
+    background: #404040;
+}
+
+.list div ul li img {
+    display: block;
+    width: 66px;
+    height: 66px;
+    margin: 30px auto 10px;
+}
+
+.list div ul li p {
+    width: 166px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #a9a9a9;
+}
+
+.process {
+    padding-top: 50px;
+    height: auto;
+    overflow: hidden;
+}
+
+.process span {
+    display: block;
+    text-align: center;
+}
+
+.process ul,
+.process ol {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.process ul li,
+.process ol li {
+    width: 260px;
+}
+
+.process ul li p {
+    height: 40px;
+    width: 260px;
+    overflow: hidden;
+}
+
+.process ul li p strong {
+    font-size: 24px;
+    color: #c00;
+}
+
+.process ul li p em {
+    font-size: 16px;
+    padding-left: 20px;
+    font-style: normal;
+}
+
+.process ul li div {
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+}
+
+.process ol li {
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+    background: #ccc;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.process ol li:nth-child(1) {
+    background: url("../images/jj.png") no-repeat left center;
+}
+
+.process ol li:nth-child(2) {
+    background: url("../images/jj.png") no-repeat left center;
+}
+
+.process ol li:nth-child(3) {
+    background: url("../images/gt.png") no-repeat left center;
+}
+
+.process ol li:nth-child(4) {
+    background: url("../images/ax.png") no-repeat left center;
+}
+

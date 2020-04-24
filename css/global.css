@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Microsoft YaHei';
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 96px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.p50 {
+    padding-top: 50px;
+}
+
+.top {
+    width: 100%;
+    height: 96px;
+    background: rgba(255, 255, 255, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 3px #999;
+    z-index: 99;
+}
+
+.nav a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 28px 12px 28px 0;
+    transition: ease-out all .3s;
+}
+
+.nav a img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.nav a:hover {
+    transform: rotate(360deg);
+}
+
+.nav span {
+    display: block;
+    width: 100px;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.nav p {
+    float: left;
+    height: 96px;
+    line-height: 96px;
+    padding-left: 80px;
+    font-weight: 600;
+}
+
+.nav ul {
+    height: 96px;
+    float: right;
+}
+
+.nav ul li {
+    height: 96px;
+    float: left;
+    padding-left: 18px;
+    background: url("../images/mob.png") no-repeat left center;
+}
+
+.nav ul li strong {
+    display: block;
+    line-height: 96px;
+    margin: 0 20px;
+    color: #d81e06;
+    font-size: 14px;
+}
+
+.concat {
+    width: 100%;
+    height: 100px;
+    background: #1cbac8;
+}
+
+.concat p {
+    font-size: 16px;
+    color: #fff;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.footer {
+    height: 500px;
+    background: url("../images/bj.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.cop {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    padding: 10px 0;
+}
+
+.map {
+    margin-top: 20px;
+    width: 600px;
+    height: 460px;
+    float: left;
+    border: #ccc solid 1px;
+}
+
+.lx {
+    width: 500px;
+    float: right;
+    height: 460px;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+}
+
+.lx h3 {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.lx li {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #ececec;
+}
+
+.lx p {
+    width: 500px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+}
+
+.lx p img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-right: 14px;
+}
+
+@media screen and (max-width: 1199px) {
+    .site {
+        width: 1200px;
+    }
+}

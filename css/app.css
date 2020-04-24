@@ -1,0 +1,177 @@
+.site-content {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    color: #fff;
+    padding: 145px 0;
+}
+
+.abs h1 {
+    font-size: 40px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.abs p {
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.ls {
+    padding: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 386px;
+}
+
+.ls li {
+    width: 390px;
+    height: 386px;
+    position: relative;
+}
+
+.ls li:nth-child(1) {
+    background: url("../images/ui.jpg") no-repeat center center;
+}
+
+.ls li:nth-child(2) {
+    background: url("../images/anz.jpg") no-repeat center center;
+}
+
+.ls li:nth-child(3) {
+    background: url("../images/ios.jpg") no-repeat center center;
+}
+
+.ls li div {
+    width: 390px;
+    height: 386px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    z-index: 1;
+    transition: all ease .6s;
+}
+
+.ls li div img {
+    display: block;
+    margin: 50px auto 30px;
+    width: 64px;
+    height: 64px;
+}
+
+.ls li div h3,
+.ls li div p {
+    text-align: center;
+    padding: 0 5%;
+    width: 90%;
+}
+
+.ls li div h3 {
+    height: 80px;
+    line-height: 80px;
+
+}
+
+.ls li div p {
+    height: 100px;
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ls li div:hover {
+    background: rgba(0, 0, 0, .3);
+}
+
+.lc {
+    height: 320px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.lc h2 {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.lc p {
+    font-size: 16px;
+    height: 52px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lc ol {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lc ol li {
+    width: 110px;
+    height: 50px;
+    border: #ececec 1px solid;
+    transition: all ease .5s;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 100px;
+}
+
+.lc ol li:nth-child(1) {
+    background: url("../images/gt2.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(2) {
+    background: url("../images/qy1.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(3) {
+    background: url("../images/sjk.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(4) {
+    background: url("../images/ty2.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(5) {
+    background: url("../images/yf2.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(6) {
+    background: url("../images/csfh.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(7) {
+    background: url("../images/pxgl.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(8) {
+    background: url("../images/whgl.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(9) {
+    background: url("../images/lcjf.png") no-repeat center 30px;
+}
+
+.lc ol li:nth-child(10) {
+    background: url("../images/sh2.png") no-repeat center 30px;
+}
+
+.lc ol li:hover {
+    box-shadow: 1px 1px 2px #999;
+}
